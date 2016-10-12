@@ -1,0 +1,139 @@
+/* Movie Sub Page */
+.page {
+ /* min-height: 953px; Not sure if this is necessary*/
+}
+
+.group {
+    width: 70%;
+    margin: 40 auto;
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+  
+}
+
+ .title {
+    color:#613d28;
+    margin-bottom:50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+.category {
+
+  font-weight: bold;
+}
+
+.topic {
+
+  color: #373B3B;
+}
+
+.person {
+  color:#47A8A8;
+ /* text-decoration: underline;*/
+
+}
+
+.movie-overview {
+  background-color:transparent; 
+  
+}
+
+/*Awards View*/
+.award-table td,
+.award-table th {
+  padding-bottom: 15px;
+}
+.award-year {
+  width: 124px;
+  vertical-align: top;
+  text-align: left;
+}
+.award-details {
+  vertical-align: top;
+  text-align: left;
+}
+/*End Awards View*/
+
+/*Cast and Crew View*/
+.cast-crew-container {
+  margin-bottom: 40px;
+}
+
+.cast-crew-item {
+  overflow: hidden;
+  padding-bottom: 7px;
+}
+
+.cast-crew-list {
+  list-style: none;
+  margin: 0;
+}
+
+.cast-crew-name,
+.cast-crew-role {
+  float: left;
+}
+/*End Cast and Crew View*/
+
+/* Write a Review */
+.review-rating-container {
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+
+.review-title-container,
+.review-content-container {
+  padding-top: 14px;
+  position: relative;
+}
+
+.rate-movie-container {
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 -20px 20px;
+  padding: 0 20px 12px;
+}
+
+.rate-movie-container h2 {
+  width: 75%;
+}
+
+.review-content-area {
+  min-height: 250px;
+}
+
+.review-remaining {
+  position: absolute;
+  right: 0;
+  font-size: 0.875rem;
+}
+
+.review-instructions {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+} 
+
+.review-instructions ul {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.review-instructions h3,
+.review-instructions .heading-style-3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.btn-review-submit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}

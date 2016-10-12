@@ -1,0 +1,43 @@
+
+    <link href="css/home.css" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="css/game-page.css">
+
+  <script>
+  function boopIt(value)
+  {
+  	if(value == true)
+  	{
+  		//got bonus
+			$('.question-container').append('<div id="result-txt-final">Good Job!<br/>Feel free to proceed to another chapter or visit a new page.</div> ');
+  	}
+  	else
+  	{
+  		//got nuthin'
+			$('.question-container').delay(800).slideUp(200);
+			$('.fail-wrapper').delay(1000).removeClass('hide').hide().slideDown(200);
+  	}
+  }
+  	</script>
+
+<div id="quizz-wrapper">
+
+	<h2 id="quizz-title">Chapter 3 : The Dancefloor</h2>
+
+  <div class="intro">Find the right sequence for the dance moves:</div>
+  <div class="intro">First - Lock - Second - Lock - Third - Lock - Fourth - Lock</div>
+
+	<div class="question-container container">
+		<object width="100%" height="480" data="assets/dancing.swf">
+ 			<param name="wmode" value="opaque">
+ 		</object>
+	</div>
+	<div class="fail-wrapper container hide">
+		<div class="result-txt fail">Looks like you failed...<br/>Try again later!</div>
+	</div>
+
+</div>

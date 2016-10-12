@@ -1,0 +1,42 @@
+.carousel {
+  
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.col-md-7 h2{
+
+    color:#613d28;
+    width: 70%;
+    margin: 40 auto;
+    padding: 5px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 35px;
+  margin-top: 70px;
+   font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+.lead {
+
+	 font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+	 font-size: 18px;
+}
+
+.col-md-5 {
+
+
+margin-top: 80px;
+margin-bottom: 40px;
+ font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+
+.table-topic {
+
+
+font-weight: bold;
+}

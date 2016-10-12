@@ -1,0 +1,286 @@
+#quizz-wrapper{ 
+    margin: 0 auto; 
+    line-height: 1;
+    position: relative; 
+    background: #FCFCFC;
+    border:1px solid #dedede; 
+     box-shadow:0 1px 5px #D9D9D9,inset 0 10px 20px #F1F1F1; 
+     -o-box-shadow:0 1px 5px #D9D9D9,inset 0 10px 20px #F1F1F1; 
+     -webkit-box-shadow:0 1px 5px #D9D9D9,inset 0 10px 20px #F1F1F1; 
+     -moz-box-shadow:0 1px 5px #D9D9D9,inset 0 10px 20px #F1F1F1; 
+     border-radius: 2px; 
+     position: relative; 
+     width: 750px; 
+     font-family:  "Myriad", "Myriad Pro", "Helvetica","Segoe UI", "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+
+.containeer { 
+    width: 700px; 
+    min-height: 250px; 
+    padding: 20px; 
+    overflow: auto; 
+    margin: auto; 
+}
+video, .gif {
+    width: 660px; 
+}
+
+.question-containeer ul.answers { 
+    margin: 0px;
+    margin-top: 10px;
+    padding: 5px; 
+     list-style: none; 
+}
+
+.hidee {
+    visibility: hidden;
+    display: none;
+}
+
+#quizz-title {
+    width:98%;
+    text-align: center;
+    margin: 30px 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+#result-txt, #result-txt-final {
+    width: 660px;
+    position:absolute;
+    top: 50%;
+    letter-spacing: 3px;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#result-txt-final {
+    top:45%;
+}
+
+.result-txt {
+    width: 660px;
+    position:absolute;
+    top: 50%;
+    letter-spacing: 3px;
+    font-size: 26px;
+    text-align: center;
+    color: #554444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.result-txt.win {
+    bottom: 15px;
+    color: white;
+    top:auto ;
+    
+}
+
+.question.txt {
+    width: 590px;
+    background-color: #554444;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 2px;
+    margin: auto 40px;
+    text-align: center;
+    position: absolute;
+    top: 325px;
+    color: #fcfcfc;
+    box-shadow: 0px 0px 7px 10px #554444;
+}
+
+.answers {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+}
+
+.answers li {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+.answers button{
+    width: 320px;
+    margin: auto;
+}
+
+.arrow-rightt {
+    border-style: solid;
+    border-width: 15px 0 15px 25px;
+    border-radius: 3px;
+    border-color: transparent transparent transparent #000;
+    opacity: 0.6;
+    display: block;
+    position: relative;
+    top: 28px;
+    left: 33px;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.play_btnn {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px; 
+    display: block;
+    background-color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    left: 45%;
+    top: 180px;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.play_btnn:hover, .play_btnn:hover .arrow-rightt{
+    opacity: 0.9;
+}
+
+/* General button style (reset) - Stolen from Tympanus.net // modified */
+.btnn {
+
+    z-index: 1;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background:none;
+    cursor: pointer;
+    padding: 25px 10px;
+    display: inline-block;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btnn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+/* Button 1 */
+.btnn-1 {
+    border: 3px solid #FCFCFC;
+    color: #FCFCFC;
+}
+
+/* Button 1e */
+.btnn-1e {
+    overflow: hidden;
+}
+
+.btnn-1e:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background: #0e83cd;
+    opacity: 1;
+}
+
+.btnn-1e:after {
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #FCFCFC;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btnn-1e:hover,
+.btnn-1e:active {
+    color: #0e83cd;
+}
+
+.btnn-1e:hover:after {
+    height: 350%;
+    opacity: 1;
+}
+
+.btnn-1e:active:after {
+    height: 500%;
+    opacity: 1;
+}
+
+/* Effect 12: circle */
+.cl-effect-12 a::before,
+.cl-effect-12 a::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgba(100%,100%,100%,0.3);
+    border-radius: 50%;
+    content: '';
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(0.2);
+    -moz-transform: translateX(-50%) translateY(-50%) scale(0.2);
+    transform: translateX(-50%) translateY(-50%) scale(0.2);
+}
+
+.cl-effect-12 a::after {
+    width: 120px;
+    height: 120px;
+    border-width: 6px;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
+    -moz-transform: translateX(-50%) translateY(-50%) scale(0.8);
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+
+.cl-effect-12 a:hover::before,
+.cl-effect-12 a:hover::after,
+.cl-effect-12 a:focus::before,
+.cl-effect-12 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+    -moz-transform: translateX(-50%) translateY(-50%) scale(1);
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+.intro {
+
+    text-align: center;
+    margin: 30px 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#000;
+    letter-spacing: 3px;
+
+}

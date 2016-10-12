@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+    <meta name="author" content="Script Tutorials" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script><!-- jQuery Latest -->
+  <script src="js/mediaelement-and-player-min.js"></script><!-- Audio/Video Player jQuery -->
+  <script src="js/mep-feature-playlist.js"></script><!-- Playlist JavaSCript -->
+
+  <link href="css/navbar.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/progression-player.css" /><!-- Default Player Styles -->
+  <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><!-- Player Icons -->
+
+   <script src="js/ie-emulation-modes-warning.js"></script>
+   <link href="css/home.css" rel="stylesheet">
+   <link href="css/pages.css" rel="stylesheet">
+
+
+   <!--<script src="js/bootstrap-min.js"></script>-->
+  <link href="css/modal-fix.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/game-page.css">
+   <script src="js/game-page.js"></script>
+
+   <link href='http://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
+
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+
+    <title>SMUL - Pulp Fiction Adventure</title>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+              </button>
+              <a class="navbar-brand" href="#">Pulp Fiction Adventure</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+               <li ><a href="home.html">Home</a></li>
+
+                <li ><a href="game.html">Game</a></li>
+             
+                <li class="active"><a href="pictures.html">Pictures</a></li>
+                <li><a href="musicpage.html">Soundtrack</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Information <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="description.html">Description</a></li>
+                     <li><a href="characters.html">Characters</a></li>
+                    <li><a href="script.html">Script</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                    <!--<li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>-->
+                  </ul>
+                </li>
+
+                <li><a href="#about">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>     
+        <li data-target="#myCarousel" data-slide-to="4" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img class="first slide" >
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Characters</h1>
+                <a  href="characters.html"><img src="characters.jpg"  alt="soundtrack" class="user_option" ></a>
+      
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" >
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Script</h1>
+                <a  href="script.html"><img src="script-1.jpg"  alt="script" class="user_option" ></a>
+      
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" >
+         <div class="container">
+            <div class="carousel-caption">
+              <h1>Soundtrack</h1>
+                 <a  href="musicpage.html"><img src="ost.jpg"  alt="script" class="user_option" ></a>
+      
+            </div>
+          </div>
+
+        </div>
+         <div class="item">
+          <img class="forth-slide">
+         <div class="container">
+            <div class="carousel-caption">
+              <h1>Awards</h1>
+                <a  href="awards.html"><img src="awards.jpg"  alt="script" class="user_option" ></a>
+      
+            </div>
+          </div>
+
+        </div>
+        <div class="item active">
+          <img class="fifth-slide" >
+         <div class="container">
+            <div class="carousel-caption">
+              <h1>Pictures</h1>
+                <a  href="pictures.html"><img src="pics.jpg"  alt="script" class="user_option" ></a>
+      
+            </div>
+          </div>
+
+        </div>
+
+        <div class="item">
+          <img class="sixth-slide" >
+         <div class="container">
+            <div class="carousel-caption">
+              <h1>Description</h1>
+                <a  href="description.html"><img src="cast.jpg"  alt="script" class="user_option" ></a>
+      
+            </div>
+          </div>
+
+        </div>
+
+         <div class="item">
+          <img class="Seventh-slide" >
+         <div class="container">
+            <div class="carousel-caption">
+              <h1>Game</h1>
+                <a  href="game.html"><img src="game.jpg"  alt="script" class="user_option" ></a>
+      
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <div class="main-title">PICTURES</div>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-one"><img class="img-circle" src="assets/Pictures/170_1600x900-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-two"><img class="img-circle" src="assets/Pictures/2013-12-06 18.46.41.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-three"><img class="img-circle" src="assets/Pictures/386988-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <div class="row">
+       <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-four"><img class="img-circle" src="assets/Pictures/Captura de ecrã total 22-04-2015 120356.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-five"><img class="img-circle" src="assets/Pictures/Captura de ecrã total 22-04-2015 120408.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-six"><img class="img-circle" src="assets/Pictures/Captura de ecrã total 22-04-2015 120451.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+            <div class="row">
+       <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-seven"><img class="img-circle" src="assets/Pictures/Captura de ecrã total 22-04-2015 120805.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-eight"><img class="img-circle" src="assets/Pictures/Captura de ecrã total 22-04-2015 120908.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-nine"><img class="img-circle" src="assets/Pictures/pulpfiction_185pyxurz-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+            <div class="row">
+       <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-ten"><img class="img-circle" src="assets/Pictures/Captura de ecrã total 22-04-2015 121513.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-eleven"><img class="img-circle" src="assets/Pictures/drivein-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-twelve"><img class="img-circle" src="assets/Pictures/mrwallace.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+       <div class="row">
+       <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-thirteen"><img class="img-circle" src="assets/Pictures/Pulp Fiction Wallpaper 14-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-fourteen"><img class="img-circle" src="assets/Pictures/pulp-cena-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-fifteen"><img class="img-circle" src="assets/Pictures/Pulp-Fiction-016.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+            <div class="row">
+       <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-sixteen"><img class="img-circle" src="assets/Pictures/Pulp-Fiction-021-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-seventeen"><img class="img-circle" src="assets/Pictures/Pulp-Fiction-025.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-eighteen"><img class="img-circle" src="assets/Pictures/Pulp-Fiction-360.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+            <div class="row">
+       <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-nineteen"><img class="img-circle" src="assets/Pictures/Pulp-Fiction-425-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-twenty"><img class="img-circle" src="assets/Pictures/gold-watch-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-twenty-one"><img class="img-circle" src="assets/Pictures/pulp.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+                  <div class="row">
+       <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-twenty-two"><img class="img-circle" src="assets/Pictures/pulpfiction-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-twenty-three"><img class="img-circle" src="assets/Pictures/pulpfiction1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <button type="button" class="button-modal" data-toggle="modal" data-target="#pic-twenty-four"><img class="img-circle" src="assets/Pictures/pulpfiction9-1.jpg" alt="Generic placeholder image" width="340" height="240"></button>
+          
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+<div id="pic-one" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/170_1600x900-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-two" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/2013-12-06 18.46.41.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+<div id="pic-three" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/386988-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-four" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Captura de ecrã total 22-04-2015 120356.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-five" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Captura de ecrã total 22-04-2015 120408.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-six" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Captura de ecrã total 22-04-2015 120451.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-seven" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Captura de ecrã total 22-04-2015 120805.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-eight" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Captura de ecrã total 22-04-2015 120908.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+<div id="pic-nine" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/pulpfiction_185pyxurz-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-ten" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Captura de ecrã total 22-04-2015 121513.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-eleven" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/drivein-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-twelve" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/mrwallace.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-thirteen" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Pulp Fiction Wallpaper 14-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-fourteen" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/pulp-cena-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-fifteen" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Pulp-Fiction-016.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-sixteen" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Pulp-Fiction-021-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-seventeen" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Pulp-Fiction-025.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-eighteen" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Pulp-Fiction-360.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-nineteen" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/Pulp-Fiction-425-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-twenty" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/gold-watch-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-twenty-one" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/pulp.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+<div id="pic-twenty-two" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/pulpfiction-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+<div id="pic-twenty-three" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/pulpfiction1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+
+<div id="pic-twenty-four" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+
+          <img src="assets/Pictures/pulpfiction9-1.jpg" alt="Generic placeholder image" width="100%" height="100%">
+
+      </div><!--end of body-->
+      <nav id="cl-effect-18" class="modal-footer cl-effect-18">
+
+        <a class="close-btn" data-hover="Close" data-dismiss="modal">Close</a>
+           <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+      </nav>
+    </div>
+  </div>
+</div><!--end of modal-->
+
+
+
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap-min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+   <link href="css/navbar.css" rel="stylesheet">
+   <link href="css/characters.css" rel="stylesheet">
+
+
+  </body>
+</html>

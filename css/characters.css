@@ -1,0 +1,113 @@
+.main-title {
+
+  color:#613d28;
+    width: 70%;
+    margin: 40 auto;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+.body-about {
+
+    background-color: #DE7C89;
+}
+
+
+/*.us {
+
+    margin-bottom: 40px;
+    margin-top: 90px;
+}*/
+
+
+.us {
+
+    margin-bottom: 80px;
+    margin-top: 120px;
+   font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+    font-size: 15.5px;
+}
+
+
+.m-title {
+
+  color:#613d28;
+    width: 70%;
+    margin: 40 auto;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+
+
+.col-md-7 h2{
+
+    color:#613d28;
+    width: 70%;
+    margin: 40 auto;
+    padding: 5px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 35px;
+   font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+.featurette-heading {
+
+    font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+.char {
+
+    font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
+
+
+.col-md-7 h3{
+
+    width: 70%;
+    margin: 40 auto;
+    padding: 5px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 20px;
+   font-family:"Helvetica";
+
+}
+
+.lead {
+
+    margin-top: 10px;
+     font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+     font-size: 18px;
+}
+
+
+.col-md-5 {
+
+ font-family:Menlo,Monaco,Consolas,"Courier New",monospace;
+
+}
