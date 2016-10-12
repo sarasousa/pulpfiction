@@ -5,4 +5,4 @@
 Website for the Pulp Fiction movie. It features content related to the argument, the characters, the soundtrack, among others.
 The main focus of the website is a quiz where the users are tested on their knowledge of a particular movie scene.
 
-This website was created within the scope of a Multimedia Systems' subject and it was built by 2 students. It is a static web page.
+This website was created within the scope of a Multimedia Systems subject and it was built by 2 students. It is a static web page.
